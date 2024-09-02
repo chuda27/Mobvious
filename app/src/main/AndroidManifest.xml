@@ -12,8 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobvious"
         tools:targetApi="31">
+<!--        <activity-->
+<!--            android:name=".pembayaran.PaymentActivity"-->
+<!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".register.RegistrasiActivity" -->
+        <!-- android:exported="false" /> -->
         <activity
-            android:name=".MainActivity"
+            android:name=".register.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran.PaymentActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
