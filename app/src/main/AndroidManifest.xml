@@ -15,14 +15,14 @@
 <!--        <activity-->
 <!--            android:name=".pembayaran.PaymentActivity"-->
 <!--            android:exported="false" />-->
-        <!-- <activity -->
-        <!-- android:name=".register.RegistrasiActivity" -->
-        <!-- android:exported="false" /> -->
+<!--         <activity-->
+<!--         android:name=".register.RegistrasiActivity"-->
+<!--         android:exported="false"/>-->
+<!--        <activity-->
+<!--            android:name=".register.LoginActivity"-->
+<!--            android:exported="false" />-->
         <activity
-            android:name=".register.LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".pembayaran.PaymentActivity"
+            android:name=".register.RegistrasiActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
